@@ -6,7 +6,7 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
 <title>Soft</title>
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
 <link rel="stylesheet" type="text/css" href="css/global.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -19,19 +19,274 @@
 
 
 <div id="wrapper">
+	<div class="mobile-shadow fixed l0 t0 r0 b0 "></div>
+	<div class="mobile-menu fixed r0 h100">
+		<a class="burger db abs">
+					<span></span>
+					<span></span>
+		</a>
+		<div class="social">
+			<a href="" class="vk rad db alCenter inb vT"><img src="img/icon-vk.svg" alt="vk"></a>
+		</div>
+		<div class="top-menu">
+			<div class="menu-link">Ваш рейтинг: <b>2409</b></div>
+			<div class="menu-link"><b>0 ВИП</b> <a href="">Пополнить счёт</a></div>
+			<div class="menu-link"><b>0000 ББ</b> <a href="">Использовать баллы</a></div>
+			<div class="menu-link"><b>0000 ЗЕ</b> <a href="">Вывести средства</a></div>
+			<div class="menu-link menu-link_out-link"><a href="">Выход</a></div>
+		</div>
+		<nav class="menu">
+			<ul>
+							<li><a href="">О нас</a></li>
+							<li><a href="">Проект</a></li>
+							<li>
+								<a>Вход / Регистрация</a>
+								<div class="drop-reg abs r0">
+									<div class="my_tabs">
+										<div class="dt rL ">
+											<ul class="flex-wrap flex-just">
+												<li class="active"><a>Вход</a></li>
+												<li><a>Регистрация</a></li>
+											</ul>
+											<div class="clear h0"></div>
+										</div>
+										<div class="dd rL ">
+											<div class="item rL active">
+												<form action="post">
+													<input type="text" class="inputbox db box w100" placeholder="Логин">
+													<input type="password" class="inputbox db box w100" placeholder="Пароль">
+													<button class="green-button">Войти</button>
+												</form>
+												<div class="forgot-pass"><a href="">Забыли пароль?</a></div>
+											</div><!--end item-->
+											<div class="item rL">
+												<form action="get">
+													<input type="text" class="inputbox db box w100" placeholder="Логин">
+													<input type="password" class="inputbox db box w100" placeholder="Пароль">
+													<input type="password" class="inputbox db box w100" placeholder="Подтвердите пароль">
+													<button class="green-button green-button_reg">Зарегистрироваться</button>
+												</form>
+											</div><!--end item-->
+										</div>
+									</div>
+								</div>
+							</li>
+			</ul>
+		</nav>
+		<div class="rL contacts-block box">
+    		<a href="mailto:president@incor-pion.ru" class="inb vT email rL">president@incor-pion.ru</a>
+    		<div class="clear"></div>
+    		<a href="tel:+79262637056" class="inb vT tel rL">+7 926 263 70 56</a>
+    		<div class="contact rL">Контактное лицо: <span class="nowrap">Михаил Мельников</span></div>
+    		<div class="address rL">г. Москва,<br> Б.Черемушкинская,<br> д.20, к.4, комн.ii/2</div>
+    	</div>
+	</div>
 	<header class="" id="header">
+		<div class="top-menu">
+			<div class="inner flex-wrap flex-just reg">
+				<div class="menu-link">Ваш рейтинг: <b>2409</b></div>
+				<div class="menu-link"><b>0 ВИП</b> <a href="">Пополнить счёт</a></div>
+				<div class="menu-link"><b>0000 ББ</b> <a href="">Использовать баллы</a></div>
+				<div class="menu-link"><b>0000 ЗЕ</b> <a href="">Вывести средства</a></div>
+				<div class="menu-link menu-link_out-link"><a href="">Выход</a></div>
+			</div>
+		</div>
 		<div class="inner rL">
-			
+			<div class="header">
+				<a href="" class="logo db fleft upp ptbold">Инкорпоративное образование</a>
+				<div class="right-block fright rL">
+					<div class="social fright">
+						<a href="" class="vk rad db alCenter inb vT"><img src="img/icon-vk.svg" alt="vk"></a>
+					</div>
+					<nav class="fright menu">
+						<ul>
+							<li><a href="">О нас</a></li>
+							<li><a href="">Проект</a></li>
+							<li>
+								<a>Вход / Регистрация</a>
+								<div class="drop-reg abs r0">
+									<div class="my_tabs">
+										<div class="dt rL ">
+											<ul class="flex-wrap flex-just">
+												<li class="active"><a>Вход</a></li>
+												<li><a>Регистрация</a></li>
+											</ul>
+											<div class="clear h0"></div>
+										</div>
+										<div class="dd rL ">
+											<div class="item rL active">
+												<form action="post">
+													<input type="text" class="inputbox db box w100" placeholder="Логин">
+													<input type="password" class="inputbox db box w100" placeholder="Пароль">
+													<button class="green-button">Войти</button>
+												</form>
+												<div class="forgot-pass"><a href="">Забыли пароль?</a></div>
+											</div><!--end item-->
+											<div class="item rL">
+												<form action="get">
+													<input type="text" class="inputbox db box w100" placeholder="Логин">
+													<input type="password" class="inputbox db box w100" placeholder="Пароль">
+													<input type="password" class="inputbox db box w100" placeholder="Подтвердите пароль">
+													<button class="green-button green-button_reg">Зарегистрироваться</button>
+												</form>
+											</div><!--end item-->
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<div class="clear"></div>
+				</div>
+				<a class="burger db fright rL">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+				<div class="clear"></div>
+			</div>
 		</div>
     </header>
 	
 	<main id="main">
-		
+		<div class="main-banner cover fff">
+			<div class="inner">
+				<div class="ptbold ah1">ОБРАЗОВА<span class="wbr">-</span>ТЕЛЬНЫЕ ПРОГРАММЫ 
+И ТРЕНИНГИ,<span> ДОСТУПНЫЕ <br>
+ДЛЯ КАЖДОГО</span></div>
+				<ul>
+					<li>Программа карьерного роста в сфере управления развитием территории                        и региона вашего проживания</li>
+					<li>Программа открытия высокооплачиваемых рабочих мест для себя и других</li>
+					<li>Программа разработки Российского стандарта качества жизни в достатке каждого гражданина</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end main-banner -->
+		<div class="about-section">
+			<div class="inner">
+				<div class="ah1 ptbold">АНО «ИНКОРПО<span class="wbr">-</span><wbr>РАТИВНОЕ ОБРАЗОВАНИЕ»</div>
+				<div class="text">
+					<p class="ptbold">в сотрудничестве с ведущими вузами России </p>
+					<p class="ptbold">реализует мультиобразовательный Проект  <span>«ЛИДЕРЫ УПРАВЛЕНИЯ»</span> </p>
+				</div>
+			</div>
+			<div class="gray-bg">
+				<div class="inner flex-wrap flex-just">
+					<div class="image-block w49 cover" style="background-image: url(images/about-section.jpg);"></div>
+					<div class="w49 text-block">
+						<div class="ah2 rL inb vT"><span class="rL">в формате которого:</span></div>
+						<ul>
+							<li>Проводится подготовка нового поколения профессиональных менеджеров развития территорий и регионов высшей квалификации </li>
+							<li>Осуществляется повышение компетенции действующих специалистов в органах муниципальной представительной                                            и исполнительной <span class="on_mobile"></span> ветвях власти</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end about-section -->
+		<div class="partner-section">
+			<div class="inner">
+				<div class="section-title ptbold alCenter"><span class="no_on_mobile">Наши</span> партнеры</div>
+				<div class="m0a block">
+					<div class="mobile-slider flex-wrap flex-just">
+						<div class="item w49 flex-wrap flex-no_wrap">
+							<div class="image-block flex-shrink"><img src="images/partner-section/item1.png" alt=""></div>
+							<div class="text-block">
+								Российская академия народного хозяйства
+и государственной службы при Президенте
+Российской Федерации (РАНХиГС)
+							</div>
+						</div>
+						<div class="item w49 flex-wrap flex-no_wrap">
+							<div class="image-block flex-shrink"><img src="images/partner-section/item2.png" alt=""></div>
+							<div class="text-block">
+								Образовательное учреждение профсоюзов
+высшего образования «Академия труда
+и социальных отношений» (АТиСО)
+							</div>
+						</div>
+						<div class="item w49 flex-wrap flex-no_wrap">
+							<div class="image-block flex-shrink"><img src="images/partner-section/item3.png" alt=""></div>
+							<div class="text-block">
+								Российский экономический университет 
+им. Плеханова <span class="nowrap">(РЭУ им. Плеханова)</span>
+							</div>
+						</div>
+						<div class="item w49 flex-wrap flex-no_wrap">
+							<div class="image-block flex-shrink"><img src="images/partner-section/item4.png" alt=""></div>
+							<div class="text-block">
+								Российский химико-технологический
+университет им. Менделеева (РХТУ)
+							</div>
+						</div>
+					</div>
+					<div class=" flex-wrap flex-just white-mobile">
+						<div class="item w49">
+							<div class="training rL">
+								<span>Обучение</span> проходит в <b><b class="rL zx1">2 этапа</b></b>
+							</div>
+						</div>
+						<div class="item w49">
+							<a href="" class="green-button db alCenter"> Подробнее о Проекте</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end partner-section -->
+		<div class="mission-section fff rL">
+			<div class="inner">
+				<div class="section-title alCenter ptbold">Наша МИССИЯ</div>
+				<div class="block flex-no_wrap flex-just">
+					<div class="text-block">
+						<ul>
+							<li>Развитие социального лифта в сфере бизнеса                         и управления развитием территорий и регионов;</li>
+							<li>Подготовка будущей управленческой социально ответственной элиты гражданского общества;</li>
+							<li>Способствование карьерному управленческому                     и предпринимательскому росту;</li>
+							<li>Формирование кадрового управленческого <span class="on_mobile"></span>        резерва для руководства страны и регионов.</li>
+						</ul>
+					</div>
+					<div class="image-block cover w49 flex-shrink" style="background-image: url(images/mission.jpg);"></div>
+				</div>
+			</div>
+		</div>
+		<div id="subfooter"></div>
     </main>
 </div><!--end wrapper-->
 <footer id="footer">
-	<div class="inner ">
-    	
+	<div class="inner rL">
+    	<div class="fright rL contacts-block w50 box">
+    		<a href="mailto:president@incor-pion.ru" class="inb vT email rL">president@incor-pion.ru</a>
+    		<div class="clear"></div>
+    		<a href="tel:+79262637056" class="inb vT tel rL">+7 926 263 70 56</a>
+    		<div class="contact rL">Контактное лицо: <span class="nowrap">Михаил Мельников</span></div>
+    		<div class="address rL">г. Москва, Б.Черемушкинская, д.20, к.4, комн.ii/2</div>
+    	</div>
+    	<div class="rL hid left-block">
+    		<div class="flex-wrap flex-just">
+    			<div class="left-col">
+    				<a href="" class="logo inb vT upp ptbold rL">Инкорпоративное 
+		образование</a>
+					<hr>
+    			</div>
+    			<div class="right-col">
+    				<nav class="menu">
+    					<ul>
+    						<li><a href="">О нас</a></li>
+    						<li><a href="">Конкурс</a></li>
+    						<li><a href="">Вход / Регистрация</a></li>
+    					</ul>
+    				</nav>
+    				<div class="social reg">
+	    				<span class="inb vT">мы в соц. сетях</span>
+	    				<a href="" class="vk rad inb vM alCenter"><img src="img/icon-vk.svg" alt="vk"></a>
+	    			</div>
+    			</div>
+    			<div class="copy abs l0 b0 reg">©  2007-2019 </div>
+    		</div>
+    		
+    	</div>
+    	<div class="clear"></div>
     </div>
 </footer>
 
@@ -49,6 +304,7 @@
 <script src="js/jquery-1.12.1.js"></script>
 <script src="js/jquery.inputmask.js"></script>
 <script src="js/jquery.arcticmodal.js"></script>
+<script src="js/slick.js"></script>
 <script src="js/script.js"></script>
 
 
