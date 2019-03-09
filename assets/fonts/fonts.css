@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PTSerif-Bold';
+  src: url('PTSerif-Bold.eot');
+  src: url('PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+       url('PTSerif-Bold.svg#PTSerif-Bold') format('svg'),
+       url('PTSerif-Bold.ttf') format('truetype'),
+       url('PTSerif-Bold.woff') format('woff'),
+       url('PTSerif-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
