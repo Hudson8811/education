@@ -7,18 +7,21 @@ h1, h2, h3, h4, h5, h6, p{display:block; margin:0; padding:0; font-weight:400;}
 .h1, .h2, .h3, .h4, .h5, .h6{margin:0; padding:0; float:none;}
 img, input, textarea, button{border:none; outline:none; font-family: 'Roboto', sans-serif; }
 textarea{position:relative; overflow:hidden; resize:none; box-sizing:border-box; display:block; width:100%;}
-a{cursor:pointer; color:inherit; text-decoration:none; border:none; outline:none; transition:.3s color, .3s border-color;}
+a{cursor:pointer; color:inherit; text-decoration:none; border:none; outline:none; transition:.3s color;}
 a:hover{text-decoration:none; color: #ceea43;}
 table{border-spacing:0;}
 td, th{vertical-align:top; word-wrap:break-word;}
 ul, nav, dl{margin:0; padding:0; list-style:none;}
 button{display:block; cursor:pointer; box-sizing:border-box; padding:0; font-family: 'Roboto', sans-serif; }
 /*button:hover, .button:hover{transition: opacity .3s, visibility .3s linear; opacity:0.8;}*/
+i{font-style: normal;}
 .flex-wrap{display: -webkit-box;    display: -ms-flexbox;    display: flex; -ms-flex-wrap: wrap;    flex-wrap: wrap;}
 .flex-just{-webkit-box-pack: justify;    -ms-flex-pack: justify;    justify-content: space-between;}
 .flex-no_wrap{display: -webkit-box;    display: -ms-flexbox;    display: flex; -ms-flex-wrap: nowrap;    flex-wrap: nowrap;}
 .flex-shrink{-webkit-flex-shrink: 0;    -ms-flex-negative: 0; flex-shrink: 0;}
+.flex-center{-webkit-box-align: center;    -ms-flex-align: center;    align-items: center;}
 .flex-grow{flex-grow: 0;    -webkit-box-flex: 0;    -webkit-flex-grow: 0;    -ms-flex-positive: 0;}
+.flex-bet{    -webkit-box-pack: justify;    -ms-flex-pack: justify;    justify-content: space-between;}
 .inner{width:96.5%; max-width:1140px; margin:0 auto;}
 .clear{clear:both; height:1px;}
 .fleft{float:left;}
@@ -84,9 +87,11 @@ button{display:block; cursor:pointer; box-sizing:border-box; padding:0; font-fam
 .low{text-transform:lowercase;}
 .on_dekstop{display:block;}
 .on_mobile{display:none;}
+.bold{font-weight: 700;}
 .on_tablet{display:none;}
 .on_tablet_and_mobile{display:none;}
 .on_tablet_and_dekstop{display:block;}
+.z1{z-index: 1;}
 blockquote{margin:0; padding:0; display:block;}
 section{position:relative;}
 main{position:relative; clear:both;}
