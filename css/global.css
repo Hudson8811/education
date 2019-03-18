@@ -96,7 +96,7 @@ blockquote{margin:0; padding:0; display:block;}
 section{position:relative;}
 main{position:relative; clear:both;}
 header, nav, section, article, aside, footer, main{display:block;}
-#wrapper{width:100%; height:auto; margin:0 auto; position:relative; min-height:100%;}
+#wrapper{width:100%;    overflow: hidden; height:auto; margin:0 auto; position:relative; min-height:100%;}
 .cover{background-position:center center; background-repeat:no-repeat; background-size:cover;}
 .coverTop{background-position:top center; background-repeat:no-repeat; background-size:cover;}
 .contain{background-position:center center; background-repeat:no-repeat; background-size:contain;}
