@@ -157,7 +157,7 @@ box-shadow: 5px 5px 20px 0px rgba(47,218,64,0.29);padding-left:60px; padding-rig
 .your-section .row .block:nth-child(even){padding-left:19%; padding-right: 20px; padding-right: 140px;}
 .your-section .row .block:nth-child(even):after{content: ''; position: absolute; right:40px; top: 50%; margin-top: -54px; width: 55px; height: 98px; background: url(../img/qt.svg) no-repeat;}
 .your-section .row .block:first-child{padding-right: 80px;}
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcf7da', endColorstr='#cff2f6',GradientType=1 );}
+
 .your-section .row .block:nth-child(5) span{max-width: 180px;}
 .your-section .row:after{content: ''; width: 430px; height: 571px; background: url(../img/man.png) no-repeat; position: absolute; left: 50%; bottom: -95px; margin-left: -215px;}
 .your-section .ah2{font-size: 32px; line-height: 25px; color: #008f18;}
