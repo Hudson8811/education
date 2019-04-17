@@ -1,5 +1,5 @@
 @media (min-width: 999px) {
-	#header{position: fixed; width: 100%; z-index: 3; background-color: #fff;}
+	#header{position: fixed; width: 100%; z-index: 20; background-color: #fff;}
 }
 
 @media (max-width: 1450px) {
