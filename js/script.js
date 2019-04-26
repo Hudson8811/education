@@ -17,15 +17,6 @@ $('.form_block .radio').click(function(){
 });
 
 
-///****изменение****///
-/*
-$('.my_tabs .dt ul li').click(function() {
-	$(this).closest('.my_tabs').find('li').removeClass('active');
-	$(this).addClass('active');
-	$(this).closest('.my_tabs').find('.item').removeClass('active')
-	                  .eq($(this).index()).addClass('active');
-	return false;
-});*/
 
 $('.mobile-menu .my_tabs .dt ul li').click(function() {
 	$(this).closest('.my_tabs').find('li').removeClass('active');
@@ -35,7 +26,6 @@ $('.mobile-menu .my_tabs .dt ul li').click(function() {
 	return false;
 });
 
-///****конец изменений****///
 
 $('.before-after-section .next-tab').click(function() {
 	$('.before-after-section .dt li').removeClass('active');
@@ -109,7 +99,7 @@ $('.embl').owlCarousel({
 	navText:false,
 	dots:false,
 	autoplay:false,
-	responsive : 
+	responsive :
 	{
 		0 : {
 			items:1,
@@ -123,7 +113,7 @@ $('.embl').owlCarousel({
 			items:4,
 			margin:0
 		},
-		
+
 		950 : {
 			items:5,
 			margin:0
@@ -131,3 +121,20 @@ $('.embl').owlCarousel({
 	}
 });
 
+
+$(document).ready(function() {
+
+    $('.open-reg-modal').click(function () {
+        $('.registraion-block').arcticmodal({
+            closeOnEsc: false,
+            closeOnOverlayClick: false,
+            overlay: {
+                css: {
+                    backgroundColor: '#000',
+                    opacity: .35,
+                }
+            }
+        });
+    });
+
+});

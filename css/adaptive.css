@@ -4,20 +4,20 @@
 
 @media (max-width: 1450px) {
 	.before-after-section .next-tab{right: -60px;}
-	.before-after-section .prev-tab{left: -60px;}	
+	.before-after-section .prev-tab{left: -60px;}
 }
 
 @media (max-width: 1450px) {
-	.before-after-section .next-tab, .before-after-section .prev-tab{display: none;}	
+	.before-after-section .next-tab, .before-after-section .prev-tab{display: none;}
 }
 @media (max-width: 1200px) {
 	.chief .grey .sect .fone{padding-right:30px; padding-left:30px;}
-	
+
 }
 @media (max-width: 1150px) {
-	
+
 	.main-banner .left_text{font-size:25px; line-height:29px; margin-bottom:40px;}
-	
+
 }
 @media (max-width: 1100px) {
 	.etaps .etap_1{height:auto;}
@@ -57,7 +57,7 @@
 	.etaps .bluue .grad{padding:30px 60px 30px 100px;}
 	.etaps .bluue .grad:before{left:20px;}
 	.etaps .bluue .del{width:100%;}
-	
+
 	.white .grad{padding:45px 18px 42px;}
 	.white .grad .top,.white .grad .bottom,.white .grad .left,.white .grad .right{display:none; }
 	.white .blue_block{padding-left:20px; padding-right:20px;}
@@ -172,7 +172,7 @@
 	.chief .grey .sect .info .line{display:block; height:auto; margin-bottom:25px;}
 	.chief .grey .sect .info .line .st_1{padding-top:24px; padding-bottom:24px;display:block; width:100%; box-sizing:border-box; padding-left:14px; padding-right:14px;}
 	.chief .grey .sect .info .line .st_2{padding-top:16px; padding-bottom:35px;display:block; width:100%; background-image:none; background-color:#f2f2f2; padding-left:14px; padding-right:14px;}
-	
+
 	}
 
 @media (max-width: 900px) {
@@ -452,7 +452,7 @@
 }
 
 @media (max-width: 440px) {
-	
+
 	.main-banner .ah1 span.wbr{display: inline;}
 	.main-banner{background-image: url(../images/main-banner-320.jpg);}
 }
@@ -460,3 +460,20 @@
 @media (max-width: 370px) {
 	.main-banner.new_img .img_bann{height:180px;}
 }
+
+
+@media (max-width: 1150px) {
+  .registraion-block .registration-inner form .inputs-block .reg-warning-block .reg-warning {
+    font-size: 16px;
+    line-height: 25px; }
+  .registraion-block .registration-inner form .inputs-block .inputs-flex .input-block {
+    margin-top: 20px; }
+  .input-block .label {
+    font-size: 16px; }
+  .registraion-block .registration-inner form .inputs-block .inputs-flex-block .right-inputs .custom-check-block .check-text {
+    font-size: 16px; }
+  .registraion-block .registration-inner form .btn-block .required-info,
+  .registraion-block .registration-inner form .btn-block .public-info {
+    font-size: 16px;
+    width: 28%;
+    line-height: 23px; } }
