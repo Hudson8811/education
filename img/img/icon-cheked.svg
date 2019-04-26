@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="9" viewBox="0 0 11 9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #17d637;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon_cheked" data-name="icon cheked" class="cls-1" d="M294.338,202l-5.225,5.785-2.677-2.921L285,206.423,289.221,211,296,203.853Z" transform="translate(-285 -202)"/>
+</svg>

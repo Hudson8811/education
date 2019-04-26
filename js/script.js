@@ -16,13 +16,26 @@ $('.form_block .radio').click(function(){
 	}
 });
 
+
+///****изменение****///
+/*
 $('.my_tabs .dt ul li').click(function() {
 	$(this).closest('.my_tabs').find('li').removeClass('active');
 	$(this).addClass('active');
 	$(this).closest('.my_tabs').find('.item').removeClass('active')
 	                  .eq($(this).index()).addClass('active');
 	return false;
+});*/
+
+$('.mobile-menu .my_tabs .dt ul li').click(function() {
+	$(this).closest('.my_tabs').find('li').removeClass('active');
+	$(this).addClass('active');
+	$(this).closest('.my_tabs').find('.item').removeClass('active')
+	                  .eq($(this).index()).addClass('active');
+	return false;
 });
+
+///****конец изменений****///
 
 $('.before-after-section .next-tab').click(function() {
 	$('.before-after-section .dt li').removeClass('active');
@@ -59,13 +72,6 @@ if (window.innerWidth < 700){
 	});
 };
 
-$('.my_tabs .dt ul li').click(function() {
-	$(this).closest('.my_tabs').find('li').removeClass('active');
-	$(this).addClass('active');
-	$(this).closest('.my_tabs').find('.item').removeClass('active')
-	                  .eq($(this).index()).addClass('active');
-	return false;
-});
 
 $(document.body).on('click', function(e){
   if(!$(e.target).closest('.open').length){

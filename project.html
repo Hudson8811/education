@@ -12,6 +12,9 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/adaptive.css">
 
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<link rel="stylesheet" type="text/css" href="css/adaptive1.css">
+
 </head>
 
 <body>
@@ -31,40 +34,113 @@
 		
 		<nav class="menu">
 			<ul>
-							<li><a href="">О нас</a></li>
-							<li><a href="">Проект</a></li>
-							<li>
-								<a>Вход / Регистрация</a>
-								<div class="drop-reg abs r0">
-									<div class="my_tabs">
-										<div class="dt rL ">
-											<ul class="flex-wrap flex-just">
-												<li class="active"><a>Вход</a></li>
-												<li><a>Регистрация</a></li>
-											</ul>
-											<div class="clear h0"></div>
+				<li><a href="">О нас</a></li>
+				<li><a href="">Проект</a></li>
+				<li>
+					<a>Вход / Регистрация</a>
+					<div class="drop-reg abs r0">
+						<div class="my_tabs">
+							<div class="dt rL ">
+								<ul class="flex-wrap flex-just">
+									<li class="active"><a>Вход</a></li>
+									<li><a>Регистрация</a></li>
+								</ul>
+								<div class="clear h0"></div>
+							</div>
+							<div class="dd rL ">
+								<div class="item rL active">
+									<form action="post">
+										<input type="text" class="inputbox db box w100" placeholder="Логин">
+										<input type="password" class="inputbox db box w100" placeholder="Пароль">
+										<button class="green-button">Войти</button>
+									</form>
+									<div class="forgot-pass"><a href="">Забыли пароль?</a></div>
+								</div><!--end item-->
+								<div class="item rL">
+									<form action="get">
+										<div class="input-block required-input public-input">
+											<div class="label">Фамилия</div>
+											<input type="text" required>
 										</div>
-										<div class="dd rL ">
-											<div class="item rL active">
-												<form action="post">
-													<input type="text" class="inputbox db box w100" placeholder="Логин">
-													<input type="password" class="inputbox db box w100" placeholder="Пароль">
-													<button class="green-button">Войти</button>
-												</form>
-												<div class="forgot-pass"><a href="">Забыли пароль?</a></div>
-											</div><!--end item-->
-											<div class="item rL">
-												<form action="get">
-													<input type="text" class="inputbox db box w100" placeholder="Логин">
-													<input type="password" class="inputbox db box w100" placeholder="Пароль">
-													<input type="password" class="inputbox db box w100" placeholder="Подтвердите пароль">
-													<button class="green-button green-button_reg">Зарегистрироваться</button>
-												</form>
-											</div><!--end item-->
+										<div class="input-block required-input public-input">
+											<div class="label">Имя</div>
+											<input type="text" required>
 										</div>
-									</div>
-								</div>
-							</li>
+										<div class="input-block public-input">
+											<div class="label">Отчество</div>
+											<input type="text">
+										</div>
+										<div class="input-block required-input public-input">
+											<div class="label">Логин</div>
+											<input type="text" required>
+										</div>
+										<div class="input-block required-input">
+											<div class="label">Пароль</div>
+											<input type="text" required>
+										</div>
+										<div class="input-block required-input">
+											<div class="label">Повтор пароля</div>
+											<input type="text" required>
+										</div>
+										<div class="input-block required-input">
+											<div class="label">Электронная почта</div>
+											<input type="text" required>
+										</div>
+										<div class="input-block required-input">
+											<div class="label">Повтор почты</div>
+											<input type="text" required>
+										</div>
+										<div class="input-block public-input">
+											<div class="label">Пол</div>
+											<select>
+												<option value="" disabled selected>Выберите из спика</option>
+												<option value="">Мужской</option>
+												<option value="">Женский</option>
+												<option value="">Другой</option>
+											</select>
+										</div>
+										<div class="input-block public-input">
+											<div class="label">Загрузка фото</div>
+											<input type="text">
+										</div>
+										<div class="input-block public-input">
+											<div class="label">Дата рождения <span>(дд.мм.гггг)</span></div>
+											<input type="text">
+										</div>
+										<div class="input-block required-input public-input">
+											<div class="label">Регион проживания</div>
+											<select required>
+												<option value="" disabled selected>Выберите из спика</option>
+												<option value="">Регион 1</option>
+												<option value="">Регион 2</option>
+												<option value="">Другой</option>
+											</select>
+										</div>
+										<div class="input-block">
+											<div class="label">Кто Вас пригласил?</div>
+											<input type="text">
+										</div>
+										<div class="custom-check-block">
+											<label class="custom-check">
+												<input type="checkbox">
+												<span class="check-block"></span>
+											</label>
+											<span class="check-text">Хочу получать рассылку новостей и объявлений на электронную почту</span>
+										</div>
+										<div class="custom-check-block required-input">
+											<label class="custom-check">
+												<input type="checkbox">
+												<span class="check-block"></span>
+											</label>
+											<span class="check-text">Принимаю <a href="">пользовательское соглашение</a></span>
+										</div>
+										<button class="green-button green-button_reg">Зарегистрироваться</button>
+									</form>
+								</div><!--end item-->
+							</div>
+						</div>
+					</div>
+				</li>
 			</ul>
 		</nav>
 		<div class="rL contacts-block box">
@@ -96,7 +172,7 @@
 										<div class="dt rL ">
 											<ul class="flex-wrap flex-just">
 												<li class="active"><a>Вход</a></li>
-												<li><a>Регистрация</a></li>
+												<li><a class="open-reg-modal">Регистрация</a></li>
 											</ul>
 											<div class="clear h0"></div>
 										</div>
@@ -106,16 +182,18 @@
 													<input type="text" class="inputbox db box w100" placeholder="Логин">
 													<input type="password" class="inputbox db box w100" placeholder="Пароль">
 													<button class="green-button">Войти</button>
+													<div class="custom-check-block">
+														<label class="custom-check">
+															<input type="checkbox">
+															<span class="check-block"></span>
+														</label>
+														<span class="check-text">Запомнить на сайте</span>
+													</div>
 												</form>
-												<div class="forgot-pass"><a href="">Забыли пароль?</a></div>
-											</div><!--end item-->
-											<div class="item rL">
-												<form action="get">
-													<input type="text" class="inputbox db box w100" placeholder="Логин">
-													<input type="password" class="inputbox db box w100" placeholder="Пароль">
-													<input type="password" class="inputbox db box w100" placeholder="Подтвердите пароль">
-													<button class="green-button green-button_reg">Зарегистрироваться</button>
-												</form>
+												<div class="forgot-pass need-login">
+													<div class="link-block"><a href="">Забыли пароль?</a></div>
+													<div class="link-block"><a href="">Еще нет учетной записи?</a></div>
+												</div>
 											</div><!--end item-->
 										</div>
 									</div>
@@ -409,6 +487,127 @@
 	</div>
 </div>
 
+
+<div class="hide">
+	<div class="registraion-block">
+		<div class="inner">
+			<div class="registration-inner">
+				<div class="title-row">
+					<div class="btn-reg-modal go-back-btn">
+						<img src="img/img/back-icon.svg" alt="">
+					</div>
+					<div class="reg-title">Регистрация на сайте</div>
+					<div class="btn-reg-modal go-close-btn arcticmodal-close">
+						<img src="img/img/close-icon.svg" alt="">
+					</div>
+				</div>
+				<form action="">
+					<div class="inputs-block">
+						<div class="reg-warning-block">
+							<div class="reg-warning">
+								<p><b>Будьте внимательны при вводе фио</b>. Возможности их изменить в дальшейшем не будет.</p>
+								<p>Все выдаваемые документы об образовании будут выдаваться на указанные вами фио.</p>
+							</div>
+						</div>
+						<div class="inputs-flex">
+							<div class="input-block required-input public-input">
+								<div class="label">Фамилия</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block required-input public-input">
+								<div class="label">Имя</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block public-input">
+								<div class="label">Отчество</div>
+								<input type="text">
+							</div>
+							<div class="input-block required-input public-input">
+								<div class="label">Логин</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block required-input">
+								<div class="label">Пароль</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block required-input">
+								<div class="label">Повтор пароля</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block required-input">
+								<div class="label">Электронная почта</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block required-input">
+								<div class="label">Повтор почты</div>
+								<input type="text" required>
+							</div>
+							<div class="input-block public-input">
+								<div class="label">Пол</div>
+								<select>
+									<option value="" disabled selected>Выберите из спика</option>
+									<option value="">Мужской</option>
+									<option value="">Женский</option>
+									<option value="">Другой</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="inputs-flex-block">
+							<div class="left-inputs">
+								<div class="input-block public-input">
+									<div class="label">Загрузка фото</div>
+									<input type="text">
+								</div>
+								<div class="input-block public-input">
+									<div class="label">Дата рождения <span>(дд.мм.гггг)</span></div>
+									<input type="text">
+								</div>
+								<div class="input-block required-input public-input">
+									<div class="label">Регион проживания</div>
+									<select required>
+										<option value="" disabled selected>Выберите из спика</option>
+										<option value="">Регион 1</option>
+										<option value="">Регион 2</option>
+										<option value="">Другой</option>
+									</select>
+								</div>
+								<div class="input-block">
+									<div class="label">Кто Вас пригласил?</div>
+									<input type="text">
+								</div>
+							</div>
+							<div class="right-inputs">
+								<div class="custom-check-block">
+									<label class="custom-check">
+										<input type="checkbox">
+										<span class="check-block"></span>
+									</label>
+									<span class="check-text">Хочу получать рассылку новостей и объявлений на электронную почту</span>
+								</div>
+								<div class="custom-check-block required-input">
+									<label class="custom-check">
+										<input type="checkbox">
+										<span class="check-block"></span>
+									</label>
+									<span class="check-text">Принимаю <a href="">пользовательское соглашение</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn-block">
+						<div class="required-info">Заполните все<br>обязательные поля *</div>
+						<button class="green-button">Зарегистрироваться</button>
+						<div class="public-info">Эту информацию могут видеть другие посетители</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <script src="js/jquery-1.12.1.js"></script>
 <script src="js/jquery.inputmask.js"></script>
 <script src="js/owl.carousel.js"></script>
@@ -416,6 +615,7 @@
 <script src="js/slick.js"></script>
 <script src="js/script.js"></script>
 
+<script src="js/script1.js"></script>
 
 </body>
 </html>
