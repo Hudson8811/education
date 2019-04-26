@@ -75,11 +75,8 @@ $("#header .header .right-block .menu li .drop-reg").mouseout(function () {
 
 if(window.innerWidth > 900){
 	$(".reg-section .green-button").click(function () {
-		    $('#header .header .right-block .menu li .drop-reg .dt li').removeClass('active');
-		    $('#header .header .right-block .menu li .drop-reg .dd .item').removeClass('active');
-		    $('#header .header .right-block .menu li .drop-reg .dt li:nth-child(2)').addClass('active');
-		    $('#header .header .right-block .menu li .drop-reg .dd .item:nth-child(2)').addClass('active');
-			setTimeout ("$('#header .header .right-block .menu li .drop-reg').addClass('open');", 100);
+		console.log(123);
+		open_reg();
 	});
 } else {
 	$(".reg-section .green-button").click(function () {
@@ -123,18 +120,20 @@ $('.embl').owlCarousel({
 
 
 $(document).ready(function() {
-
     $('.open-reg-modal').click(function () {
-        $('.registraion-block').arcticmodal({
-            closeOnEsc: false,
-            closeOnOverlayClick: false,
-            overlay: {
-                css: {
-                    backgroundColor: '#000',
-                    opacity: .35,
-                }
-            }
-        });
+		open_reg();
     });
-
 });
+
+function open_reg(){
+	$('.registraion-block').arcticmodal({
+		closeOnEsc: false,
+		closeOnOverlayClick: false,
+		overlay: {
+			css: {
+				backgroundColor: '#000',
+				opacity: .35,
+			}
+		}
+	});
+}
