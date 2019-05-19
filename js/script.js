@@ -16,7 +16,13 @@ $('.form_block .radio').click(function(){
 	}
 });
 
-
+$('.before-after-section .my_tabs .dt ul li').click(function() {
+	$(this).closest('.my_tabs').find('li').removeClass('active');
+	$(this).addClass('active');
+	$(this).closest('.my_tabs').find('.item').removeClass('active')
+	                  .eq($(this).index()).addClass('active');
+	return false;
+});
 
 $('.mobile-menu .my_tabs .dt ul li').click(function() {
 	$(this).closest('.my_tabs').find('li').removeClass('active');
