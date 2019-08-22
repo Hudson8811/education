@@ -1,0 +1,119 @@
+
+
+@media (max-width: 1200px) {
+	.acc_main .sect_1 .line .b_2 .last{display: none;}
+	.acc_main .sect_1 .line .b_2 {width: 240px;	}
+	.acc_main .sect_1 .line .b_3 span{display: none;}
+	.acc_main .sect_1 .line .b_3{width:135px;}
+}
+@media (max-width: 1160px) {
+	.acc_main .big_button{margin-left: 0;}
+	.acc_main .sect_1 .right .top{width: 245px;}
+	.acc_main .sect_1 .right{width: 245px;}
+	.acc_main .sect_1 .left .cont{padding-bottom: 10px;}
+	.acc_main .sect_1 .bottom{    padding: 33px 30px 38px 30px;}
+	.acc_main .sect_2,.acc_main .sect_3{margin-left: 0;}
+}
+@media (max-width: 1080px) {
+	.acc_main .sect_1 .bottom .txt .no_txt{display:none;}
+	.acc_main .sect_1 .left .cont{padding-right: 10px;}
+	.acc_main .sect_1 .line .b_3{width: 120px;}
+}
+@media (max-width: 990px) {
+	.acc_main .left_side .change span{line-height: 56px;}
+	.acc_main .left_side .change {height: 63px;}
+	.acc_main .cark{}
+	.acc_main .left_side .all{display: none;}
+	.acc_main .left_side .info{overflow: hidden; padding-left: 30px; border:none; box-shadow: none;}
+	.acc_main .left_side .info .name{display: block; font-size: 34px; line-height: 40px; padding:  21px 0; }
+	.acc_main .left_side .info .from{background-color: #fff;}
+	.acc_main .left_side .future{float: left;}
+	.acc_main .left_side .change{width: 165px;}
+	.acc_main .left_side .img{width: 165px;}
+	.acc_main .left_side{position: static; margin: 0; width: 100%; }
+	.acc_main .sect_1{margin-left: 0; padding-top: 0;}
+	.acc_main .sect_1 .name{display: none;}
+	.acc_main{margin-top: -16px;}
+	.account.main-banner{height: 55px; padding: 0;}
+	.acc_main .left_side .info .top{text-align: left; padding-left: 14px;     padding-top: 9px;line-height: 43px;}
+	.acc_main .left_side .info .top .abs{display: block; top: 20px; right: 13px;     font-weight: 500;font-size: 16px;line-height: 19px;color: #6c91a3;}
+	.acc_main .left_side .info .top .abs:after {	content: '';display: block;position: absolute;width: 100%;height: 1px;background-color: #bfdde6;left: 0;bottom: -1px;}
+	.acc_main .left_side .info .for_bord{border: 1px solid #ebebeb;}
+	.acc_main .sect_1 .right {		width: 224px;	}
+	.acc_main .sect_1 .right .top {width: 224px;}
+	.acc_main .sect_1 .right .top .qqq{display: none;}
+	.acc_main .sect_1 .right .top .www{display: inline;}
+	.acc_main .sect_1 .show .for_hid{display: none;}
+	.acc_main .sect_1 .carus_nagr {	padding: 40px 32px 42px 32px;}
+	.acc_main .sect_1 .bottom {padding: 26px 17px 33px 15px;}
+	.acc_main .sect_1 .bottom .button {width: 190px;}
+	.acc_main .sect_3 .bottom .block .line .green{position: relative; left: auto; top: auto;     width: 593px; margin-top: 15px; }
+	.acc_main .sect_3 .bottom .block .line .green:after{transform: rotate(90deg);left: 104px;		top: -19px;}
+	}
+@media (max-width: 750px) {
+	.acc_main .sect_1 .line .b_3{margin-top: 10px;}
+	.acc_main .sect_2 .bottom .block .line .b_3,.acc_main .sect_3 .bottom .block .line .b_3{display: none;}
+	.acc_main .sect_3 .bottom .block .line .green{width:544px;}
+}
+
+@media (max-width: 680px) {
+
+	.acc_main .sect_3 .bottom .block .line .green{width: 100%;}
+	.acc_main .sect_2 .bottom .block .line .b_2,.acc_main .sect_3 .bottom .block .line .b_2{width: 180px; margin-right: 20px; margin-bottom: 20px;}
+	.acc_main .left_side .info .name{display: none;}
+	.acc_main .name2{display: block; font-size: 34px; line-height: 40px; margin-top: 40px; margin-left: 60px; margin-bottom: 25px;}
+	.acc_main .left_side .future{float: none;}
+	.acc_main .left_side .img{float: left;  }
+	.acc_main .left_side .change{overflow: hidden; height: 175px; width: auto; text-align: left;  padding-left: 20px; padding-top: 70px;}
+	.acc_main .left_side .change span{line-height: 21px; }
+	.acc_main .left_side .info{padding-left: 0;}
+	.acc_main .sect_1 .cark{position: relative;	}
+	.acc_main .sect_1 .right{float: none; width: 100%; position: absolute; top:244px; left: 0;     z-index: 10;}
+	.acc_main .sect_1 .left .cont{padding-bottom: 202px;}
+	.acc_main .sect_1 .right .top{width: 100%;}
+	.acc_main .sect_1 .line .b_3{margin-top: 0;}
+	.acc_main .sect_1 .carus_nagr {		padding: 27px 32px 20px 32px;}
+	.acc_main .sect_1 .carus_nagr .owl-next,.acc_main .sect_1 .carus_nagr .owl-prev{top:40px;}
+	.acc_main .sect_1 .bottom .txt a{display: block; float: left;}
+	.acc_main .sect_1 .bottom .txt span{display: block; float: right;}
+	.acc_main .sect_1 .bottom .clear.hide{display: block; height: 16px;}
+	.acc_main .sect_1 .bottom .txt{display: block; }
+	.acc_main .sect_1 .bottom .button{display: block; width:100%;     margin-top: 10px;}
+	.acc_main .sect_1 .bottom {		padding: 25px 17px 33px 15px;}
+	.acc_main .sect_1 .bottom .txt{line-height: 21px; }
+}
+@media (max-width: 550px) {
+	.acc_main .big_button{width: 95%; height: auto; line-height: 25px; padding: 22px 30px; margin: 0 auto 100px;}
+	.acc_main .sect_1 .left .cont{padding-left: 10px; padding-right: 10px;}
+	.acc_main .sect_1 .line .b_3{float: none; margin: 15px auto 30px; }
+	.acc_main .sect_1 .line .clear.hide{display: block;}
+	.acc_main .sect_1 .right{top:335px;}
+	.acc_main .sect_1 .zag{text-align: center;}
+}
+@media (max-width: 453px) {
+	.acc_main .sect_3 .bottom .block .line .b_1 {width: 40px;}
+	.mobile-menu{box-shadow: none;}
+	.acc_main .sect_2 .bottom .block .line .button,.acc_main .sect_3 .bottom .block .line .button{width: 100%; line-height: 40px; height: 40px;}
+	.acc_main .sect_2,.acc_main .sect_1,.acc_main .sect_3{border-left: none; border-right: none;}
+	.acc_main .sect_1 .right {top: 325px;}
+	.acc_main .sect_1 .line .b_1{font-size: 16px; line-height: 26px;width: 70px;}
+	.acc_main .sect_1 .line .b_2{width: auto;}
+	.acc_main .sect_1 .line .b_2 span{    font-size: 16px;
+		line-height: 24px;
+		width: 26px;
+		height: 26px;}
+	.acc_main .sect_2 .top{padding-left: 10px;}
+	.acc_main .inner{width: 100%;}
+	.acc_main .sect_2 .top span{margin-bottom: 10px; display: block;}
+	.acc_main .sect_2 .top a{display: block;     padding-left: 50px;}
+	.acc_main .sect_2 .bottom,.acc_main .sect_3 .bottom {padding: 32px 10px 10px 10px;}
+	.acc_main .sect_2 .bottom .block .zag,.acc_main .sect_3 .bottom .block .zag{position: relative; padding-left: 50px;}
+	.acc_main .sect_2 .bottom .block .zag .doc,.acc_main .sect_2 .bottom .block .zag .conk,.acc_main .sect_3 .bottom .block .zag .g_conk{position: absolute; left: 6px; top:0px;}
+	.acc_main .sect_2 .top i{    margin-right: 17px;}
+	.acc_main .sect_2 .top i{margin-right: 11px;		margin-left: 7px;}
+	.acc_main .sect_2 .bottom .block .line .b_1 {	width: 20px;padding-left: 16px;     margin-right: 12px;}
+	.acc_main .sect_2 .bottom .block .line .b_2{width: auto;}
+}
+@media (max-width: 390px) {
+.acc_main .sect_1 .right {top: 343px;}
+}
